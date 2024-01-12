@@ -52,7 +52,7 @@ The website is built using the following technologies:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/technojam-website.git
+   git clone https://github.com/developers-sky/technojam-X.git
    cd technojam-website
    ```
 
@@ -85,8 +85,8 @@ Click on the "Fork" button on the top right of the repository page.
 Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/technojam-website.git
-cd technojam-website
+git clone https://github.com/developers-sky/technojam-X.git
+cd technojam-X
 ```
 
 ### Create a Branch <a name="create-a-branch"></a>
