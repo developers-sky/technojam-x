@@ -23,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/developers-sky/technojam-x/issues"
   },
-  "homepage": "https://github.com/developers-sky/technojam-x#readme"
+  "homepage": "https://github.com/developers-sky/technojam-x#readme",
+  "dependencies": {
+    "nex": "^2.0.22",
+    "nextjs": "^0.0.3",
+    "promises": "^0.2.5"
+  }
 }
