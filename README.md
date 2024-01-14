@@ -30,11 +30,20 @@ Welcome to the documentation for the development of Technojam's new website. Thi
 
 The project follows a standard web application structure:
 
-- `/src`: Contains the source code for the website.
+  - `/src`: Contains the source code for the website.
   - `/components`: Reusable React components.
   - `/pages`: React components representing different pages.
   - `/styles`: Stylesheets for the application.
   - `/utils`: Utility functions.
+  -  `/data-components`: data-visualizationa and funtions.
+  -  `/graphics-enhancements`: graphics and 3d module components.
+  -  `/integrations`: 3rd party  integrations of web-apps and services.
+  -  `/newsletter`: newsletter components.
+  -  `/content`: all-pupose generic content holder.
+  -  `/blog`: blog posts and reaction container holder. 
+  -  `/vectors`: vector library and files directory.
+  -  `/api`: api directory.
+  -  `/lib`: custom Exported ClassNames.
 
 - `/public`: Static assets and HTML files.
 
@@ -46,9 +55,11 @@ The website is built using the following technologies:
 
 - **React**: A JavaScript library for building user interfaces.
 - **Node.js**: A JavaScript runtime for server-side development.
+- **Next.js**: A modular javascrip framework.
 - **Express**: A web application framework for Node.js.
 - **MongoDB**: A NoSQL database for storing dynamic data.
 - **Sass**: A CSS extension language.
+- **Tailwind**: A CSS enhancement Framework.
 
 ## Installation <a name="installation"></a>
 
@@ -56,7 +67,7 @@ The website is built using the following technologies:
 
    ```bash
    git clone https://github.com/developers-sky/technojam-X.git
-   cd technojam-website
+   cd technojam-x
    ```
 
 2. Install dependencies:
