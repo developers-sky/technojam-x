@@ -158,4 +158,5 @@ Follow the coding standards defined in the `/docs/coding-standards.md` file.
 
 - Anurag Kumar Singh (singh.ask@outook.com)
 - Neeraj Krishna (contact@neerajx0.xyz)
+- Yash Singh (email)
 For any questions or concerns, feel free to contact the maintainers. Thank you for your contributions!
