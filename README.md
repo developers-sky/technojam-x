@@ -76,6 +76,11 @@ The website is built using the following technologies:
    ```bash
    npm install
    ```
+3. install husky:
+    
+    ```bash
+    npm run prepare
+    ```
 
 ## Running the Application <a name="running-the-application"></a>
 
