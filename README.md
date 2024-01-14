@@ -17,6 +17,7 @@
     - [Clone the Fork ](#clone-the-fork-)
     - [Create a Branch ](#create-a-branch-)
     - [Commit Changes ](#commit-changes-)
+    - [Husky (Pre-commit) ](#husky-pre-commits-)
     - [Push Changes ](#push-changes-)
     - [Create Pull Request ](#create-pull-request-)
   - [Coding Standards ](#coding-standards-)
@@ -149,6 +150,23 @@ git add .
 git commit -m "Your commit message"
 ```
 
+
+### Husky (Pre-commit) <a name="husky-pre-commits-"></a>
+
+husky Pre-commit:
+
+Husky is a pre-commit and hook tool, pre-check your code quality and vulnerability analysis.
+will automatically just work, when you commit files using 
+
+```bash
+git push origin
+    
+```
+or 
+
+```bash
+git push 
+```
 ### Push Changes <a name="push-changes"></a>
 
 Push your changes to your fork:
