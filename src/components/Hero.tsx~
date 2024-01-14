@@ -68,7 +68,7 @@ const Hero = () => {
               <span className="terminal_user">VedanshTripathi@Technojam:</span>
               <span className="terminal_location">~</span>
               <span className="terminal_bling">$</span>
-              <span className="text-white">Hello guys🔈!! let&apos;s start contributing 🚀👉🏻</span>
+              <span className="text-white">Hello guys🔈!! let's start contributing 🚀👉🏻</span>
             </div>
           </div>
         </div>
