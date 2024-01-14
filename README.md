@@ -32,7 +32,7 @@ Welcome to the documentation for the development of Technojam's new website. Thi
 The project follows a standard web application structure:
 
   - `/src`: Contains the source code for the website.
-  - `/components`: Reusable React components.
+  - `/src/components`: Reusable React components.
   - `/pages`: React components representing different pages.
   - `/styles`: Stylesheets for the application.
   - `/utils`: Utility functions.
