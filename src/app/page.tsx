@@ -1,7 +1,11 @@
-import { tektur } from './fonts'
+import Hero from "@/components/Hero";
+import Testing from "@/components/Testing";
+
 export default function Home(){
   return(
     <>
-    <h1 className={`${tektur.className} text-purple-500 text-9xl w-full bg-[#0F141D]`}></h1>
+    <Hero/>    
+    <Hero/>    
+    <Hero/>    
     </>  )
 }
