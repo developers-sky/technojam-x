@@ -65,11 +65,11 @@ const Hero = () => {
               <button className="btn hover:cursor-pointer"></button>
               <button className="btn hover:cursor-pointer"></button>
             </div>
-            <p className="text-[#d5d0ce] text-sm">VedanshTripathi@Technojam: ~</p>
+            <p className="text-[#d5d0ce] text-sm">Admin@Technojam: ~</p>
           </div>
           <div className="p-[2px] bg-[#002B36] h-[calc(100%-28px)] text-xs">
             <div className="flex gap-1">
-              <span className="text-[#7eda28]">VedanshTripathi@Technojam:</span>
+              <span className="text-[#7eda28]">Admin@Technojam:</span>
               <span className="text-[#4878c0]">~</span>
               <span className="text-[#dddddd]">$</span>
               <h1 id="text" className="text-white">
@@ -78,13 +78,11 @@ const Hero = () => {
             </div>
             <div className="flex gap-1">
               <span className="text-[#7eda28] hidden terminalOut">
-                VedanshTripathi@Technojam:
+                Admin@Technojam:
               </span>
               <span className="text-[#4878c0] hidden terminalOut">~</span>
               <span className="text-[#dddddd] hidden terminalOut">$</span>
-              <span className="text-white hidden terminalOut">
-                Hello guys🔈!! let's start contributing 🚀👉🏻
-              </span>
+              <span className="text-white">Hello guys🔈!! let&apos;s start contributing 🚀👉🏻</span>
             </div>
           </div>
         </div>
