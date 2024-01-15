@@ -11,6 +11,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@splinetool/runtime": "^1.0.28",
     "eslint-config-prettier": "^8.5.0",
     "gsap": "^3.12.4",
     "next": "14.0.4",
