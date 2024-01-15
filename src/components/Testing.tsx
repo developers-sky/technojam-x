@@ -4,7 +4,6 @@ import React,{useLayoutEffect} from 'react'
 // import gsap from 'gsap'
 const Testing = () => {
   // useLayoutEffect(() => {
-  //   const myText =SplitType.create("#text",{types:"chars"})
   //   const ctx = gsap.context(() => {
   //     const t2 = gsap.timeline();
   //     t2.from(myText.chars, { // <- selector text, scoped to this component!

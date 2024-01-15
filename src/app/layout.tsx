@@ -15,10 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} w-screen overflow-x-hidden`}>
-        <div className="flex">
-          <div className="w-[4.5vw] h-screen sticky top-0 left-0 bg-[#131E2C]"><Sidebar/></div>
-          <div className="w-[95.5vw]">{children}</div>
-        </div>
+        {children}
       </body>
     </html>
   );
