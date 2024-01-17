@@ -17,7 +17,7 @@
     - [Clone the Fork ](#clone-the-fork-)
     - [Create a Branch ](#create-a-branch-)
     - [Commit Changes ](#commit-changes-)
-    - [Husky (Pre-commit) ](#husky-pre-commits-)
+    - [Husky (Pre-commit) ](#husky-pre-commit-)
     - [Push Changes ](#push-changes-)
     - [Create Pull Request ](#create-pull-request-)
   - [Coding Standards ](#coding-standards-)
