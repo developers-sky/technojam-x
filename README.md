@@ -193,4 +193,4 @@ Follow the coding standards defined in the `/docs/coding-standards.md` file.
 - Anurag Kumar Singh (singh.ask@outook.com)
 - Neeraj Krishna (contact@neerajx0.xyz)
 - Yash Singh (singhyash9009670@gmail.com)
-For any questions or concerns, feel free to contact the maintainers. Thank you for your contributions!
+For any questions or concerns, read documentation first. still not solved??? feel free to contact the maintainers. Thank you for your contributions!
