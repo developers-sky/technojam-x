@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Loader from "@/components/Loader";
 import Sidebar from "@/components/Sidebar";
 import { useEffect, useState } from "react";
+import { SparklesCore } from "../components/sparkles";
 export default function Home(){
   const [isLoaded, setIsLoaded] = useState(false)
   useEffect(() => {

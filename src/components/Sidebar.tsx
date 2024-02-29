@@ -67,19 +67,12 @@ const Sidebar = () => {
             </div>
           </div>
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({
-                  top: window.innerHeight,
-                  left: 0,
-                  behavior: "smooth",
-                })
-              }
-              className={` flex flex-col items-center p-2 duration-200 text-[#81318F] cursor-pointer hover:text-3xl`}
-            >
-              <HiOutlineNewspaper />
-              <h1 className="text-xs text-center">Blog</h1>
-            </div>
+            <Link href="/blog">
+              <div className={` flex flex-col items-center p-2 duration-200 text-[#81318F] cursor-pointer hover:text-3xl`}>
+                <HiOutlineNewspaper />
+                <h1 className="text-xs text-center">Blog</h1>
+              </div>
+            </Link>
           </div>
           <div className="page">
             <div
