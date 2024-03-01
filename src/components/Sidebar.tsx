@@ -34,7 +34,7 @@ const Sidebar = () => {
           },
           "-=.2"
         );
-    },comp);
+    }, comp);
     return () => ctx.revert();
   }, []);
   return (
@@ -75,11 +75,11 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="page">
-          <Link href="/picturesque">
-            <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-              <RiGalleryLine /> 
-              <h1 className="text-xs text-center">≒</h1>
-            </div>
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">≒</h1>
+              </div>
             </Link>
           </div>
         </div>

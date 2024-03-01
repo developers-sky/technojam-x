@@ -56,9 +56,9 @@ export default function Home() {
                                         "/active/11.jpg",
                                         "/active/12.jpg",
                                         "/active/13.jpg",
-                                        "/active/14.png",
-                                           
-                                           
+
+
+
                                     ]}
                                 >
                                     <section className="grid h-screen w-full place-content-center bg-gray-800">
