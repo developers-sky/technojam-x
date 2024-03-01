@@ -3,8 +3,8 @@ import gsap, { Power3 } from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useLayoutEffect, useRef } from "react";
-import { HiOutlineHomeModern, HiOutlineNewspaper } from "react-icons/hi2";
-import { SiOpensourceinitiative } from "react-icons/si";
+import { HiOutlineHomeModern, HiOutlineNewspaper } from "react-icons/hi2"
+import { RiGalleryLine } from "react-icons/ri";
 const Sidebar = () => {
   // Animation Using Gsap
   const comp: any = useRef();
@@ -75,19 +75,12 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({
-                  top: 2 * window.innerHeight,
-                  left: 0,
-                  behavior: "smooth",
-                })
-              }
-              className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}
-            >
-              <SiOpensourceinitiative />
-              <h1 className="text-xs text-center">Join</h1>
+          <Link href="/picturesque">
+            <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+              <RiGalleryLine /> 
+              <h1 className="text-xs text-center">≒</h1>
             </div>
+            </Link>
           </div>
         </div>
         {/* Github Repo Link */}
