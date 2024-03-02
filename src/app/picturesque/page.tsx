@@ -33,9 +33,6 @@ const images = [
     "/active/12.jpg",
     "/active/13.jpg",
   ];
-export function ParallaxScrollDemo() {
-    return <ParallaxScroll images={images} />;
-}
 
 export default function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
