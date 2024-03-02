@@ -56,15 +56,12 @@ const Sidebar = () => {
         {/* Page Navigation */}
         <div className="text-xl py-6 flex flex-col gap-4">
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
-              }
-              className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}
-            >
+            <Link href="/">
+            <div className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}  >
               <HiOutlineHomeModern />
               <h1 className="text-xs text-center">Home</h1>
             </div>
+            </Link>
           </div>
           <div className="page">
             <Link href="/blog">
