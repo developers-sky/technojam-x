@@ -11,7 +11,7 @@ import { MouseEventHandler } from "react";
 
 import { useAnimate } from "framer-motion";
 import { FiMousePointer } from "react-icons/fi";
-
+import { ParallaxScroll } from "../../components/ui/parallax-scroll";
 
 import {
     ContextMenu,
@@ -19,7 +19,23 @@ import {
     ContextMenuItem,
     ContextMenuTrigger,
 } from "@/components/ui/context-menu";
-
+const images = [
+    "/active/2.jpg",
+    "/active/3.jpg",
+    "/active/4.jpg",
+    "/active/5.jpg",
+    "/active/6.jpg",
+    "/active/7.jpg",
+    "/active/8.jpg",
+    "/active/9.jpg",
+    "/active/10.jpg",
+    "/active/11.jpg",
+    "/active/12.jpg",
+    "/active/13.jpg",
+  ];
+export function ParallaxScrollDemo() {
+    return <ParallaxScroll images={images} />;
+}
 
 export default function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -27,7 +43,6 @@ export default function Home() {
     useEffect(() => {
         setIsLoaded(true);
     }, [isLoaded]);
-
 
     return (
         <>
@@ -67,6 +82,7 @@ export default function Home() {
                                         </p>
                                     </section>
                                 </MouseImageTrail>
+                                <ParallaxScroll images={images} />;
 
 
 
