@@ -18,14 +18,9 @@ import {
     IconTableColumn,
 } from "@tabler/icons-react";
 import { createClient } from "next-sanity";
-
-
 import { MouseEventHandler } from "react";
-
 import { useAnimate } from "framer-motion";
 import { FiMousePointer } from "react-icons/fi";
-
-
 import {
     ContextMenu,
     ContextMenuContent,
@@ -51,7 +46,7 @@ export default function Home() {
     });
 
 
-    const postQuery =  `*[_type == "Post"]{
+    const postQuery = `*[_type == "Post"]{
         title,
         shortDescription,
         author->{
@@ -69,51 +64,7 @@ export default function Home() {
     const Skeleton = () => (
         <div className="flex flex-1 w-full h-full min-h-[6rem] rounded-xl bg-gradient-to-br from-neutral-200 dark:from-neutral-900 dark:to-neutral-800 to-neutral-100"></div>
     );
-    // const items = [
-    //     {
-    //         title: "The Dawn of Innovation",
-    //         description: "Explore the birth of groundbreaking ideas and inventions.",
-    //         header: <Skeleton />,
-    //         icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Digital Revolution",
-    //         description: "Dive into the transformative power of technology.",
-    //         header: <Skeleton />,
-    //         icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Art of Design",
-    //         description: "Discover the beauty of thoughtful and functional design.",
-    //         header: <Skeleton />,
-    //         icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Power of Communication",
-    //         description:
-    //             "Understand the impact of effective communication in our lives.",
-    //         header: <Skeleton />,
-    //         icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Pursuit of Knowledge",
-    //         description: "Join the quest for understanding and enlightenment.",
-    //         header: <Skeleton />,
-    //         icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Joy of Creation",
-    //         description: "Experience the thrill of bringing ideas to life.",
-    //         header: <Skeleton />,
-    //         icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-    //     },
-    //     {
-    //         title: "The Spirit of Adventure",
-    //         description: "Embark on exciting journeys and thrilling discoveries.",
-    //         header: <Skeleton />,
-    //         icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
-    //     },
-    // ];
+
     const items = posts.length > 0 ? posts.map((post) => ({
         title: (post as { title: string }).title,
         description: (post as { shortDescription: string }).shortDescription,
@@ -148,12 +99,7 @@ export default function Home() {
                                         className="w-full h-full"
                                         particleColor="#FFFFFF"
                                     /> <div className="absolute inset-0 w-full h-full bg-gray-800 [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
-
-
-
-
                                 </div>
-
                                 <BentoGrid className="max-w-4xl pb-10 mx-auto">
                                     {items.map((item, i) => (
                                         <BentoGridItem
@@ -166,11 +112,6 @@ export default function Home() {
                                         />
                                     ))}
                                 </BentoGrid>
-
-
-
-
-
                                 <ContextMenuContent>
                                     <ContextMenuItem ><Link href={"/"}>Home</Link></ContextMenuItem>
                                     <ContextMenuItem>Join</ContextMenuItem>

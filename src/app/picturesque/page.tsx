@@ -32,7 +32,7 @@ const images = [
     "/active/11.jpg",
     "/active/12.jpg",
     "/active/13.jpg",
-  ];
+];
 
 export default function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -51,7 +51,6 @@ export default function Home() {
                     <ContextMenu>
                         <ContextMenuTrigger>
                             <div className="w-[95.5vw] min-h-screen   bg-gray-800">
-
                                 <MouseImageTrail
                                     renderImageBuffer={50}
                                     rotationRange={10}
@@ -68,9 +67,6 @@ export default function Home() {
                                         "/active/11.jpg",
                                         "/active/12.jpg",
                                         "/active/13.jpg",
-
-
-
                                     ]}
                                 >
                                     <section className="grid h-screen w-full place-content-center bg-gray-800">
@@ -80,13 +76,8 @@ export default function Home() {
                                     </section>
                                 </MouseImageTrail>
                                 <ParallaxScroll images={images} />;
-
-
-
-
                                 <div>
                                 </div>
-
                                 <ContextMenuContent>
                                     <ContextMenuItem>Home</ContextMenuItem>
                                     <ContextMenuItem>Join</ContextMenuItem>
@@ -94,7 +85,6 @@ export default function Home() {
                                     <ContextMenuItem>Picturesque</ContextMenuItem>
                                 </ContextMenuContent>
                             </div>
-
                         </ContextMenuTrigger>
                     </ContextMenu>
                 </div>
