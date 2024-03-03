@@ -17,18 +17,18 @@ import {
     ContextMenuTrigger,
 } from "@/components/ui/context-menu";
 const images = [
-    "/active/2.jpg",
-    "/active/3.jpg",
-    "/active/4.jpg",
-    "/active/5.jpg",
-    "/active/6.jpg",
-    "/active/7.jpg",
-    "/active/8.jpg",
-    "/active/9.jpg",
-    "/active/10.jpg",
-    "/active/11.jpg",
-    "/active/12.jpg",
-    "/active/13.jpg",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/odupmyfwo3blymj5tncq",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/rijyqxeor6f3ifojp6jy",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lx9m6cnx8cvgkreiimdg",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/g1dv6yyvx4awyowit5ck",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/xlqo6cogouic7kk5g6q0",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lnk2vzazw05afvo25tbz",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/nry43silaurv2q5x3krb",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/qfhqa3x6dqzczzqghxf9",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/w0a5cqcj9zg5qyj4pf42",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lzuabjphzqjw4iewmtxq",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/aktdk66twhogvq0mdnfm",
+    "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/wg5p3yr7c2jiudfcqluv",
 ];
 
 export default function Home() {
@@ -52,23 +52,23 @@ export default function Home() {
                                     renderImageBuffer={50}
                                     rotationRange={10}
                                     images={[
-                                        "/active/2.jpg",
-                                        "/active/3.jpg",
-                                        "/active/4.jpg",
-                                        "/active/5.jpg",
-                                        "/active/6.jpg",
-                                        "/active/7.jpg",
-                                        "/active/8.jpg",
-                                        "/active/9.jpg",
-                                        "/active/10.jpg",
-                                        "/active/11.jpg",
-                                        "/active/12.jpg",
-                                        "/active/13.jpg",
-                                    ]}
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/odupmyfwo3blymj5tncq",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/rijyqxeor6f3ifojp6jy",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lx9m6cnx8cvgkreiimdg",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/g1dv6yyvx4awyowit5ck",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/xlqo6cogouic7kk5g6q0",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lnk2vzazw05afvo25tbz",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/nry43silaurv2q5x3krb",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/qfhqa3x6dqzczzqghxf9",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/w0a5cqcj9zg5qyj4pf42",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/lzuabjphzqjw4iewmtxq",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/aktdk66twhogvq0mdnfm",
+                                        "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/wg5p3yr7c2jiudfcqluv",
+                                    ].filter(Boolean)}
                                 >
                                     <section className="grid h-screen w-full place-content-center bg-gray-800">
                                         <p className="flex items-center gap-2 text-3xl font-bold uppercase text-pink-">
-                                            <img src="/tj.png" alt="TechnoJam" className="flex items-center gap-2 text-3xl font-bold uppercase text-pink-" style={{ width: "775px", height: "auto" }} />
+                                            <img src="https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/slstruuwf3wdwsezrwl1" alt="TechnoJam" className="flex items-center gap-2 text-3xl font-bold uppercase text-pink-" style={{ width: "775px", height: "auto" }} />
                                         </p>
                                     </section>
                                 </MouseImageTrail>
