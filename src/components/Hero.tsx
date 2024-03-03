@@ -29,7 +29,7 @@ const Hero = () => {
           opacity: 0,
           ease: Expo.easeInOut,
           duration: 1,
-        },"-=.5")
+        }, "-=.5")
     }, hero);
     return () => ctx.revert();
   }, []);
@@ -88,27 +88,27 @@ const Hero = () => {
         </div>
         {/* Debit Card */}
         <div className="card mx-auto mt-10 relative">
-         <div className="card__side card__side_front bg-[#48256F]">
+          <div className="card__side card__side_front bg-[#48256F]">
             <div className="flex w-full h-full justify-between flex-col">
-               <p className="card__side__name-bank">Technojam</p>
-               <div className="card__side__chip"></div>
-               <p className="card__side__name-person">Admin</p>
+              <p className="card__side__name-bank">Technojam</p>
+              <div className="card__side__chip"></div>
+              <p className="card__side__name-person">Admin</p>
             </div>
-         </div>
-         <div className="card__side card__side_back bg-[#48256F]">
+          </div>
+          <div className="card__side card__side_back bg-[#48256F]">
             <div className="card__side__black"></div>
             <p className="card__side__number">9195 9815 7259 2021</p>
             <div className="flex w-full h-1/2">
-               <p className="card__side__other-numbers card__side__other-numbers_1">2025</p>
-               <p className="card__side__other-numbers card__side__other-numbers_2">911</p>
-               <div className="card__side__photo">your-photo</div>
-               <div className="card__side__debit">debit</div>
+              <p className="card__side__other-numbers card__side__other-numbers_1">2025</p>
+              <p className="card__side__other-numbers card__side__other-numbers_2">911</p>
+              <div className="card__side__photo">your-photo</div>
+              <div className="card__side__debit">debit</div>
             </div>
             {/* <p className="card__side__other-info text-center text-[#635c77] text-[8px]">
                Paisa hai to badi badi badi badi baate
             </p> */}
-         </div>
-      </div>
+          </div>
+        </div>
       </div>
     </section>
   );

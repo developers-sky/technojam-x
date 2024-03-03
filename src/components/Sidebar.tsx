@@ -3,8 +3,8 @@ import gsap, { Power3 } from "gsap";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useLayoutEffect, useRef } from "react";
-import { HiOutlineHomeModern, HiOutlineNewspaper } from "react-icons/hi2";
-import { SiOpensourceinitiative } from "react-icons/si";
+import { HiOutlineHomeModern, HiOutlineNewspaper } from "react-icons/hi2"
+import { RiGalleryLine } from "react-icons/ri";
 const Sidebar = () => {
   // Animation Using Gsap
   const comp: any = useRef();
@@ -34,7 +34,7 @@ const Sidebar = () => {
           },
           "-=.2"
         );
-    },comp);
+    }, comp);
     return () => ctx.revert();
   }, []);
   return (
@@ -56,45 +56,53 @@ const Sidebar = () => {
         {/* Page Navigation */}
         <div className="text-xl py-6 flex flex-col gap-4">
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({ top: 0, left: 0, behavior: "smooth" })
-              }
-              className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}
-            >
-              <HiOutlineHomeModern />
-              <h1 className="text-xs text-center">Home</h1>
-            </div>
+            <Link href="/">
+              <div className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}  >
+                <HiOutlineHomeModern />
+                <h1 className="text-xs text-center">Home</h1>
+              </div>
+            </Link>
           </div>
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({
-                  top: window.innerHeight,
-                  left: 0,
-                  behavior: "smooth",
-                })
-              }
-              className={` flex flex-col items-center p-2 duration-200 text-[#81318F] cursor-pointer hover:text-3xl`}
-            >
-              <HiOutlineNewspaper />
-              <h1 className="text-xs text-center">Blog</h1>
-            </div>
+            <Link href="/blog">
+              <div className={` flex flex-col items-center p-2 duration-200 text-[#81318F] cursor-pointer hover:text-3xl`}>
+                <HiOutlineNewspaper />
+                <h1 className="text-xs text-center">Blog</h1>
+              </div>
+            </Link>
           </div>
           <div className="page">
-            <div
-              onClick={() =>
-                window.scrollTo({
-                  top: 2 * window.innerHeight,
-                  left: 0,
-                  behavior: "smooth",
-                })
-              }
-              className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}
-            >
-              <SiOpensourceinitiative />
-              <h1 className="text-xs text-center">Join</h1>
-            </div>
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">≒</h1>
+              </div>
+            </Link>
+          </div>
+          {/* Todo */}
+          <div className="page">
+            <Link href="/picturesq">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">Events</h1>
+              </div>
+            </Link>
+          </div>
+          <div className="page">
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">Team</h1>
+              </div>
+            </Link>
+          </div>
+          <div className="page">
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">GPT</h1>
+              </div>
+            </Link>
           </div>
         </div>
         {/* Github Repo Link */}
