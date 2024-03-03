@@ -114,12 +114,12 @@ export default function Home() {
     //         icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
     //     },
     // ];
-    const items = posts.map((post) => ({
-        title: post.title,
-        description: post.shortDescription,
+    const items = posts.length > 0 ? posts.map((post) => ({
+        title: (post as { title: string }).title,
+        description: (post as { shortDescription: string }).shortDescription,
         header: <Skeleton />,
         icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
-      }));
+    })) : [];
 
     return (
         <>
