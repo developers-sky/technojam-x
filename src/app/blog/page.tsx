@@ -32,7 +32,7 @@ import Link from "next/link";
 
 export default function Home() {
     const [isLoaded, setIsLoaded] = useState(false);
-    const [posts, setPosts] = useState([]);
+    const [posts, setPosts] = useState<any[]>([]);
 
 
     useEffect(() => {
@@ -66,8 +66,8 @@ export default function Home() {
     );
 
     const items = posts.length > 0 ? posts.map((post) => ({
-        title: (post as { title: string }).title,
-        description: (post as { shortDescription: string }).shortDescription,
+        title: post.title,
+    description: post.shortDescription,
         header: <Skeleton />,
         icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     })) : [];
