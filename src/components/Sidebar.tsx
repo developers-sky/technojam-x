@@ -57,10 +57,10 @@ const Sidebar = () => {
         <div className="text-xl py-6 flex flex-col gap-4">
           <div className="page">
             <Link href="/">
-            <div className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}  >
-              <HiOutlineHomeModern />
-              <h1 className="text-xs text-center">Home</h1>
-            </div>
+              <div className={` flex flex-col items-center p-2 text-blue-400 duration-200 cursor-pointer hover:text-3xl`}  >
+                <HiOutlineHomeModern />
+                <h1 className="text-xs text-center">Home</h1>
+              </div>
             </Link>
           </div>
           <div className="page">
@@ -76,6 +76,31 @@ const Sidebar = () => {
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
                 <RiGalleryLine />
                 <h1 className="text-xs text-center">≒</h1>
+              </div>
+            </Link>
+          </div>
+          {/* Todo */}
+          <div className="page">
+            <Link href="/picturesq">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">Events</h1>
+              </div>
+            </Link>
+          </div>
+          <div className="page">
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">Team</h1>
+              </div>
+            </Link>
+          </div>
+          <div className="page">
+            <Link href="/picturesque">
+              <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
+                <RiGalleryLine />
+                <h1 className="text-xs text-center">GPT</h1>
               </div>
             </Link>
           </div>

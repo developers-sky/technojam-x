@@ -39,10 +39,10 @@ export default function Home() {
         setIsLoaded(true);
     }, [isLoaded]);
 
-    const client = createClient({
-        projectId: 'sid5fht0', // replace with your project ID
-        dataset: 'production', // replace with your dataset
-        useCdn: true, // `false` if you want to ensure fresh data
+    const client = createClient({ 
+        projectId: 'yqn8lnur',
+        dataset: 'production',
+        useCdn: true, 
     });
 
 
@@ -67,7 +67,7 @@ export default function Home() {
 
     const items = posts.length > 0 ? posts.map((post) => ({
         title: post.title,
-    description: post.shortDescription,
+        description: post.shortDescription,
         header: <Skeleton />,
         icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
     })) : [];

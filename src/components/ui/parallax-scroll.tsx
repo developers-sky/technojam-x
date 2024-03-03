@@ -3,7 +3,7 @@ import { useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { cn } from "../../components/utils/cn";``
+import { cn } from "../../components/utils/cn"; ``
 
 export const ParallaxScroll = ({
   images,

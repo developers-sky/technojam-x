@@ -2,14 +2,8 @@
 import { useEffect, useState, useRef } from "react";
 import React from "react";
 import ReactNode from "react";
-
 import { MouseEventHandler } from "react";
-
 import { useAnimate } from "framer-motion";
-
-
-
-
 
 const MouseImageTrail = ({
     children,

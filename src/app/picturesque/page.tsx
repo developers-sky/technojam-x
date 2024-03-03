@@ -6,13 +6,10 @@ import { useEffect, useState, useRef } from "react";
 import React from "react";
 import ReactNode from "react";
 import MouseImageTrail from "@/components/ui/mouse-image-trail";
-
 import { MouseEventHandler } from "react";
-
 import { useAnimate } from "framer-motion";
 import { FiMousePointer } from "react-icons/fi";
 import { ParallaxScroll } from "../../components/ui/parallax-scroll";
-
 import {
     ContextMenu,
     ContextMenuContent,
