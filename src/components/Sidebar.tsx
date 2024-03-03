@@ -4,7 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useLayoutEffect, useRef } from "react";
 import { HiOutlineHomeModern, HiOutlineNewspaper } from "react-icons/hi2"
-import { RiGalleryLine } from "react-icons/ri";
+import { RiGalleryLine, RiTeamLine  } from "react-icons/ri";
+import { MdOutlineEmojiEvents } from 'react-icons/md';
+import { GiArtificialHive } from "react-icons/gi";
 const Sidebar = () => {
   // Animation Using Gsap
   const comp: any = useRef();
@@ -83,7 +85,7 @@ const Sidebar = () => {
           <div className="page">
             <Link href="/picturesq">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-                <RiGalleryLine />
+              <MdOutlineEmojiEvents />
                 <h1 className="text-xs text-center">Events</h1>
               </div>
             </Link>
@@ -91,7 +93,7 @@ const Sidebar = () => {
           <div className="page">
             <Link href="/picturesque">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-                <RiGalleryLine />
+              <RiTeamLine />
                 <h1 className="text-xs text-center">Team</h1>
               </div>
             </Link>
@@ -99,7 +101,7 @@ const Sidebar = () => {
           <div className="page">
             <Link href="/picturesque">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
-                <RiGalleryLine />
+              <GiArtificialHive />
                 <h1 className="text-xs text-center">GPT</h1>
               </div>
             </Link>
