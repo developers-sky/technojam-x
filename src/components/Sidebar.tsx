@@ -83,7 +83,7 @@ const Sidebar = () => {
           </div>
           {/* Todo */}
           <div className="page">
-            <Link href="/picturesq">
+            <Link href="/events">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
               <MdOutlineEmojiEvents />
                 <h1 className="text-xs text-center">Events</h1>
@@ -91,7 +91,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="page">
-            <Link href="/picturesque">
+            <Link href="/team">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
               <RiTeamLine />
                 <h1 className="text-xs text-center">Team</h1>
@@ -99,7 +99,7 @@ const Sidebar = () => {
             </Link>
           </div>
           <div className="page">
-            <Link href="/picturesque">
+            <Link href="/gpt">
               <div className={`flex flex-col items-center p-2 duration-200 cursor-pointer text-[#F1377B] hover:text-3xl`}>
               <GiArtificialHive />
                 <h1 className="text-xs text-center">GPT</h1>
