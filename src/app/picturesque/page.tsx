@@ -49,8 +49,8 @@ export default function Home() {
                         <ContextMenuTrigger>
                             <div className="w-[95.5vw] min-h-screen   bg-gray-800">
                                 <MouseImageTrail
-                                    renderImageBuffer={50}
-                                    rotationRange={10}
+                                    renderImageBuffer={40}
+                                    rotationRange={15}
                                     images={[
                                         "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/odupmyfwo3blymj5tncq",
                                         "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/rijyqxeor6f3ifojp6jy",
@@ -66,7 +66,7 @@ export default function Home() {
                                         "https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/wg5p3yr7c2jiudfcqluv",
                                     ].filter(Boolean)}
                                 >
-                                    <section className="grid h-screen w-full place-content-center bg-gray-800">
+                                    <section className="grid h-screen w-full place-content-center rounded-2xl pt-10 pb-10 pl-10 pr-10 bg-gray-900">
                                         <p className="flex items-center gap-2 text-3xl font-bold uppercase text-pink-">
                                             <img src="https://res.cloudinary.com/anurag256k/image/upload/f_auto,q_auto/v1/Technojam/slstruuwf3wdwsezrwl1" alt="TechnoJam" className="flex items-center gap-2 text-3xl font-bold uppercase text-pink-" style={{ width: "775px", height: "auto" }} />
                                         </p>
