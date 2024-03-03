@@ -40,7 +40,7 @@ export default function Home() {
     }, [isLoaded]);
 
     const client = createClient({ 
-        projectId: 'yqn8lnur',
+        projectId: 'sid5fht0',
         dataset: 'production',
         useCdn: true, 
     });
