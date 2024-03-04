@@ -4,7 +4,7 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Technojam",
+  title: "Technojam | Galgotias Univeristy🎓",
   description: "Community",
 };
 export default function RootLayout({
